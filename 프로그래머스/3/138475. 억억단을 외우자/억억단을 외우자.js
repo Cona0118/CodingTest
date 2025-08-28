@@ -16,7 +16,8 @@ function solution(e, starts) {
             }
         }
     }*/
-    
+
+    // 약수의 개수 구하기
     const divCount = Array(e + 1).fill(0);
     for(let i=1; i<=e; i++){
         for(let j=i; j<=e; j += i){
@@ -25,6 +26,7 @@ function solution(e, starts) {
     }
     console.log(divCount);
 
+    // 뒤에서부터 최댓값 가져오기
     const best = Array(e + 1).fill(0);
     let maxNum = e;
     for (let i = e; i >= 1; i--) {
