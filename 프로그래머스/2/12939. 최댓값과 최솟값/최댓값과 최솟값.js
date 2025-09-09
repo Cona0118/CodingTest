@@ -9,4 +9,5 @@ function solution(s) {
     }
     
     return newArr[minIdx] + " " + newArr[maxIdx];
+    // return Math.min(...arr)+' '+Math.max(...arr);
 }
