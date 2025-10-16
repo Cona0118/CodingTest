@@ -3,7 +3,7 @@ class Solution {
         int answer = 0;
         
         for(int i = left; i <= right; i++){
-            if( i == (int)Math.pow((int)(Math.sqrt(i)),2) ){
+            if( (int)(Math.sqrt(i)) == (Math.sqrt(i)) ){
                 answer -= i;
             } else{
                 answer += i;
