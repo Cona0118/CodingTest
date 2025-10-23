@@ -8,6 +8,7 @@ class Solution {
                 if((w-2) * (h-2) == yellow){
                     answer[0] = w;
                     answer[1] = h;
+                    break;
                 }
             }
         }
