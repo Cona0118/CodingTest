@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] scoville, int K) {
-        // 최고 힙 선언
+        // 최소 힙 선언 -> 자동 정렬 (sort 과정을 생략하여 시간복잡도 효율성 문제 해결)
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         
         // 모든 스코빌을 최소 힙에 넣기
